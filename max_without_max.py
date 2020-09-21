@@ -1,6 +1,6 @@
 try: 
-    my_list = [] 
-      
+    my_list = []
+    x=0 
     while True: 
         my_list.append(int(input())) 
 except: 
@@ -9,6 +9,4 @@ result =my_list[0]
 for i in my_list:
     if i>result:
         result=i
-    else:
-        pass
 print(result)
