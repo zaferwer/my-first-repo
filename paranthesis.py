@@ -1,5 +1,5 @@
-x = "(){((([])))}"
-for i in x:
+x = "{[]}"
+for i in range(len(x)//2):
     x = x.replace("()","")
     x = x.replace("[]","")
     x = x.replace("{}","")
