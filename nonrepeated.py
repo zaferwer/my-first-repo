@@ -18,4 +18,4 @@ products = [
     "Pride and Prejudice",
 ]
 
-print(products.count* = 1):
+print([n for n in products if products.count(n) == 1])
