@@ -4,5 +4,6 @@
     "editor.cursorBlinking": "expand",
     "editor.formatOnSave": true,
     "python.linting.enabled": false,
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "python.dataScience.jupyterServerURI": "local"
 }
